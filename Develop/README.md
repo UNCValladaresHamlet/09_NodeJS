@@ -1,5 +1,5 @@
 
-![ISC](https://img.shields.io/badge/license-ISC-blue)
+![Mozilla](https://img.shields.io/badge/license-Mozilla-blue)
 
 # Project Title
 test
@@ -12,7 +12,7 @@ test
  * [Test Instructions](https://github.com/UNCValladaresHamlet/09_NodeJS/blob/main/Develop/README.md#tests)
  * [Questions](https://github.com/UNCValladaresHamlet/09_NodeJS/blob/main/Develop/README.md#questions)
 ## Installation
-test
+npm i
 
 ## Usage
 test
@@ -21,10 +21,10 @@ test
 test
 
 ## Tests
-test
+npm test
 
 ## Questions
 If you have any questions, you can contact me directly at test . Check out my other github projects https://github.com/test .
 
 ## License
-This project is licensed under the (ISC) license.
+This project is licensed under the (Mozilla) license.
