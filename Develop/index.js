@@ -7,7 +7,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 const questions = [
     {
     type: 'input',
-    name: 'userName',
+    name: 'github',
     message: 'What is your Github username?',
 },
 {
@@ -17,12 +17,7 @@ const questions = [
 },
 {
     type: 'input',
-    name: 'projectName',
-    message: 'What is your project\'s name?',
-},
-{
-    type: 'input',
-    name: 'projectTitle',
+    name: 'title',
     message: 'What is your project title?',
 },
 {
@@ -38,6 +33,18 @@ const questions = [
 },
 {
     type: 'input',
+    name: 'install',
+    message: 'What command should be run to install dependencies?',
+    default: 'npm i',
+},
+{
+    type: 'input',
+    name: 'test',
+    message: 'What command should be run to run tests?',
+    default: 'npm test',
+},
+{
+    type: 'input',
     name: 'usage',
     message: 'What does the user need to know about using the repo?',
 },
@@ -49,16 +56,20 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+
+    fs.writeFile(fileName, data, (err) => err ? console.log(err) : console.log('Successfully created file!'))
+        console.log('fileName?!?!?!?!?!?!?!?!!!!?!:', fileName)
+        console.log('data?!?!?!??!?!?!/!?!!!?!?!!?:', data)
+};
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(function(data) {
+    .then((data) => {
         writeToFile("README.md", generateMarkdown(data));
-        console.log(data)
-}
-    )
+        console.log('data?!?!?!??!?!?!/!?!/!!?!?!!?:', data)
+    });
 }
 // Function call to initialize app
 init();
