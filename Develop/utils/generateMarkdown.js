@@ -27,16 +27,22 @@ ${data.description}
  * [Questions](https://github.com/UNCValladaresHamlet/09_NodeJS/blob/main/Develop/README.md#questions)
 ## Installation
 ${data.install}
+
 ## Usage
 ${data.usage}
+
 ## Contributing
 ${data.contribution}
+
 ## Tests
 ${data.test}
-## License
-This project is licensed under the (${data.license}) license.
+
 ## Questions
-If you have any questions, you can contact me directly at ${data.email} . Check out my other github projects https://github.com/${data.gitHub} .`;
+If you have any questions, you can contact me directly at ${data.email} . Check out my other github projects https://github.com/${data.gitHub} .
+
+## License
+This project is licensed under the (${data.license}) license.`;
+
 }
 
 module.exports = generateMarkdown;
