@@ -38,7 +38,7 @@ ${data.contribution}
 ${data.test}
 
 ## Questions
-If you have any questions, you can contact me directly at ${data.email} . Check out my other github projects https://github.com/${data.gitHub} .
+If you have any questions, you can contact me directly at ${data.email} . Check out my other github projects https://github.com/${data.github} .
 
 ## License
 This project is licensed under the (${data.license}) license.`;

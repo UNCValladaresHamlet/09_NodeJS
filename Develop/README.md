@@ -24,7 +24,7 @@ test
 test
 
 ## Questions
-If you have any questions, you can contact me directly at test . Check out my other github projects https://github.com/undefined .
+If you have any questions, you can contact me directly at test . Check out my other github projects https://github.com/test .
 
 ## License
 This project is licensed under the (ISC) license.
