@@ -1,5 +1,5 @@
 
-![Apache](https://img.shields.io/badge/license-Apache-blue)
+![ISC](https://img.shields.io/badge/license-ISC-blue)
 
 # Project Title
 test
@@ -27,4 +27,4 @@ test
 If you have any questions, you can contact me directly at test . Check out my other github projects https://github.com/undefined .
 
 ## License
-This project is licensed under the (Apache) license.
+This project is licensed under the (ISC) license.
