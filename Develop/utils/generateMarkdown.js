@@ -15,28 +15,28 @@ function generateMarkdown(data) {
   return `
 ![${data.license}](https://img.shields.io/badge/license-${data.license}-blue)
 
-## Title
+# Title
 ${data.title}
 ## Description
 ${data.description}
  ## Table of Contents
- * [Installation](##Installation)
- * [Usage](##Usage)
- * [Contribution](##Contribution)
- * [Test](##Tests)
+ * [Installation Instructions](##Installation)
+ * [Usage Information](##Usage)
+ * [Contribution Guidelines](##Contribution)
+ * [Test Instructions](##Tests)
  * [Questions](##Questions)
 ## Installation
 ${data.install}
 ## Usage
 ${data.usage}
-## Contribution 
+## Contributing
 ${data.contribution}
 ## Tests
 ${data.test}
 ## License
 This project is licensed under the (${data.license}) license.
 ## Questions
-If you have any questions, you can contact me directly at (${data.email}). Check out my other github projects (${data.github}).`;
+If you have any questions, you can contact me directly at ${data.email} . Check out my other github projects https://github.com/${data.gitHub} .`;
 }
 
 module.exports = generateMarkdown;
