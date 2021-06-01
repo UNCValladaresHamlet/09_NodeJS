@@ -20,11 +20,11 @@ ${data.title}
 ## Description
 ${data.description}
  ## Table of Contents
- * [Installation Instructions](#Installation)
- * [Usage Information](#Usage)
- * [Contribution Guidelines](#Contributing)
- * [Test Instructions](#Tests)
- * [Questions](#Questions)
+ * [Installation Instructions](https://github.com/UNCValladaresHamlet/09_NodeJS/blob/main/Develop/README.md#installation)
+ * [Usage Information](https://github.com/UNCValladaresHamlet/09_NodeJS/blob/main/Develop/README.md#usage)
+ * [Contribution Guidelines](https://github.com/UNCValladaresHamlet/09_NodeJS/blob/main/Develop/README.md#contributing)
+ * [Test Instructions](https://github.com/UNCValladaresHamlet/09_NodeJS/blob/main/Develop/README.md#tests)
+ * [Questions](https://github.com/UNCValladaresHamlet/09_NodeJS/blob/main/Develop/README.md#questions)
 ## Installation
 ${data.install}
 ## Usage
