@@ -2,9 +2,9 @@
 ![Mozilla](https://img.shields.io/badge/license-Mozilla-blue)
 
 # Project Title
-test
+
 ## Description
-test
+
  ## Table of Contents
  * [Installation Instructions](https://github.com/UNCValladaresHamlet/09_NodeJS/blob/main/Develop/README.md#installation)
  * [Usage Information](https://github.com/UNCValladaresHamlet/09_NodeJS/blob/main/Develop/README.md#usage)
@@ -15,16 +15,17 @@ test
 npm i
 
 ## Usage
-test
+
 
 ## Contributing
-test
+
 
 ## Tests
 npm test
 
 ## Questions
-If you have any questions, you can contact me directly at test . Check out my other github projects https://github.com/test .
+If you have any questions, you can contact me directly at  . Click here to check out my Github profile https://github.com/ .
 
 ## License
-This project is licensed under the (Mozilla) license.
+      This project is licensed under the Mozilla license
+
