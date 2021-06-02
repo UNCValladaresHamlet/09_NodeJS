@@ -1,8 +1,8 @@
 
-![Mozilla](https://img.shields.io/badge/license-Mozilla-blue)
+![MIT](https://img.shields.io/badge/license-MIT-blue)
 
-# Project Title
-README Generator
+# README Generator
+
 ## Description
 very short description
  ## Table of Contents
@@ -24,8 +24,8 @@ Be respectful and if there is an issue then submit a PR.
 npm test
 
 ## Questions
-If you have any questions, you can contact me directly at sigorahv@gmail.com . Click here to check out my Github profile https://github.com/UNCValladaresHamlet .
+If you have any questions, you can contact me directly at sigorahv@gmail.com . Click here to check out my Github profile https://github.com/UNCValladaresHamlet  .
 
 ## License
-      This project is licensed under the Mozilla license
+      This project is licensed under the MIT license
 
