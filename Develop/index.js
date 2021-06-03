@@ -59,8 +59,8 @@ const questions = [
 function writeToFile(fileName, data) {
 
     fs.writeFile(fileName, data, (err) => err ? console.log(err) : console.log('Successfully created file!'))
-        console.log('fileName?!?!?!?!?!?!?!?!!!!?!:', fileName)
-        console.log('data?!?!?!??!?!?!/!?!!!?!?!!?:', data)
+        // console.log('fileName?!?!?!?!?!?!?!?!!!!?!:', fileName)
+        // console.log('data?!?!?!??!?!?!/!?!!!?!?!!?:', data)
 };
 
 // TODO: Create a function to initialize app
@@ -68,7 +68,7 @@ function init() {
     inquirer.prompt(questions)
     .then((data) => {
         writeToFile("README.md", generateMarkdown(data));
-        console.log('data?!?!?!??!?!?!/!?!/!!?!?!!?:', data)
+        // console.log('data?!?!?!??!?!?!/!?!/!!?!?!!?:', data)
     });
 }
 // Function call to initialize app
